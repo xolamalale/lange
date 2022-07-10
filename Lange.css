@@ -1,0 +1,292 @@
+
+body {
+    margin: 0;
+  }
+  .top-strip {
+    position: absolute;
+    width: 100%;
+    background-color: #000;
+    top: 0px;
+    left: 0px;
+  }
+  
+  .navigation {
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+  a {
+    color: white;
+    font-family: 'Noto Serif Display', serif;
+    text-decoration: none;
+    
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: white;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  
+  #logo {
+    width: 7%;
+  }
+  
+  ul {
+    list-style: none;
+    list-style-position: none;
+    
+  }
+  
+  .front-video {
+    left: 0px;
+    background-color: black;
+    
+  }
+  
+  #movement-video {
+    width: 100%;
+  }
+  
+  .front-movement {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  } 
+  
+  #movement-crop {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    
+  }
+  
+  #since {
+    align-self: flex-end;
+    background-color: #000;
+    width: 100%;
+    margin-top: -15%;
+   
+      
+  }
+  
+  h4 {
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-align: center;
+  }
+  
+  #movement-number {
+    margin-top: -5%;
+    color: white;
+    font-size: 40px;
+    
+  }
+  
+  .precision {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 30px;
+    color: #D1A755;
+  }
+  
+  .tourbillon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    
+  }
+  
+  #special {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2%;
+    background-color: #D1A755;
+    
+  }
+  
+  #special-header {
+    text-align: center;
+    font-size: 32px;
+  }
+  
+  #special-body {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    text-justify: auto;
+  }
+  
+  #special-time {
+    text-align: center;
+    font-size: 39px;
+    margin-top: 9%;
+  }
+  
+  #timepieces {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row-wrap;
+    justify-content: space-around;
+    background-color: #fff;
+    width: 100%;
+    margin-top: 6%;
+    
+  }
+  
+  .button {
+    background-color: #D1A755;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: cursor;
+    border-radius: 1px;
+    
+    
+  }
+  
+  #first {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  
+  #first-button {
+    margin-left: 41%;
+    margin-top: 1%;
+  }
+  
+  .name-zeitwerk {
+    margin-left:45.6%;
+    
+  }
+  
+  #zeitwerk {
+    margin-left: 5%;
+  }
+  
+  #saxonia {
+    margin-top: -2%;
+  }
+  
+  #second {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  
+  #second-button {
+    margin-left: 38%;
+    margin-top: -1%;
+  }
+  
+  .name-saxonia {
+    margin-left:43%;
+    margin-top: -2%;
+    
+  }
+  
+  #chronograph {
+    margin-top: 28%;
+    margin-left: 10%;
+  }
+  
+  #third {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  
+  #third-button {
+    margin-left: 43%;
+    margin-top: 1%;
+  }
+  
+  .name-chronograph {
+    margin-left:39%;
+    margin-top: 2%;
+    
+  }
+  
+  
+  #calendar {
+    margin-top: 33%;
+  }
+  
+  #fourth {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  
+  #fourth-button {
+    margin-left: 37%;
+    margin-top: -3%;
+  }
+  
+  .name-calendar {
+    margin-left:33.4%;
+    margin-top: 2%;
+    
+  }
+  
+  
+  #tourbillon-time {
+    margin-top: 30%;
+  }
+  
+  #fifth {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  
+  #fifth-button {
+    margin-left: 37%;
+    margin-top: -2%;
+  }
+  
+  .name-tourbillon {
+    margin-left:36%;
+    margin-top: 5%;
+    
+  }
+  
+  .footer {
+    background-color: #000 ;
+    height: 50px;
+    width: 100%;
+    margin-top: 15%;
+  }
+  
+  h6 {
+    position: absolute;
+    left: 44%;
+    margin-top: 1%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    }
+  
+  
+  
